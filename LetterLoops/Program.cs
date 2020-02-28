@@ -9,7 +9,7 @@ namespace LetterLoops
             var finalString = "";
 
             Console.WriteLine("Enter a random string:");
-            var userEntry = Console.ReadLine();
+            var userEntry = Console.ReadLine().ToLower();
 
             for (int i = 1; i <= userEntry.Length; i++)
             {
